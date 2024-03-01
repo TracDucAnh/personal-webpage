@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.row {
+    height: 600px;
+}
+.hello {
+    color: white;
+    padding: 125px 150px;
+    height: 200px;
+    font-size: 17px;
+}
+.image {
+    height: 500px;
+    width: 500px;
+    padding: 50px 0px;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+.text {
+    padding: 10px 0px 10px 0px;
+    width: 80%;
+    color: white;
+    font-size: 17px;
+}
+.break-line {
+    padding: 0px;
+    height: 3px;
+    width: 80%;
+    background: rgba(160,160,160,1);
+    border-radius: 50px;
+}
+
+.hello p:hover {
+    transition: .2s;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(20, 45, 101, 0.7);
+}
+
+.hello h2:hover {
+    transition: .2s;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(20, 45, 101, 0.7);
+}
+.blank
+{
+    height: 100px;
+}
